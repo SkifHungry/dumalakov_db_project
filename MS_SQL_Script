@@ -1,0 +1,111 @@
+1. Сущность ГТУ
+
+CREATE TABLE [dbo].[gtu] 
+( 
+[NAME] NVARCHAR(50) NOT NULL PRIMARY KEY IDENTITY, 
+[DESCRIPTION] NVARCHAR(140) NOT NULL,
+[APPLICATION] NVARCHAR(140) NULL,
+[PRICE] INT NOT NULL 
+) 
+
+2. Сущность ГТД 
+
+CREATE TABLE [dbo].[gtd] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[DESCRIPTION] NVARCHAR(140) NULL, 
+[VIEWS] NVARCHAR(140) NULL, 
+[TYPE] NVARCHAR(140) NULL, 
+[PRICE] INT ULL 
+) 
+
+3. Сущность Выхлопной диффузор
+
+CREATE TABLE [dbo].[Exhaust diffuser] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+4. Сущность Коллектор 
+
+CREATE TABLE [dbo].[Collector] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+5. Сущность Трубы 
+
+CREATE TABLE [dbo].[Tubing] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+6. Сущность Кабеля 
+
+CREATE TABLE [dbo].[Cables] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+7. Сущность Блок гидравлического стартера 
+
+CREATE TABLE [dbo].[Hydraulic starter unit] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+8. Сущность Система буферного охлаждающего воздуха 
+
+CREATE TABLE [dbo].[Buffer cooling air system] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+9. Сущность Система контроля расхода
+
+CREATE TABLE [dbo].[Flow control system] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+10. Сущность Блок баллонов CO2 
+
+CREATE TABLE [dbo].[CO2 cylinder block] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+11. Сущность Система фильтрации 
+
+CREATE TABLE [dbo].[Filtration system] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
+12. Сущность Система впрыска воды 
+
+CREATE TABLE [dbo].[Water injection system] 
+( 
+[NAME] NVARCHAR(50) NULL PRIMARY KEY IDENTITY, 
+[COUNT] INT NULL, 
+[PRICE] INT NULL 
+) 
+
