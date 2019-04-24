@@ -1,0 +1,110 @@
+1. Сущность ГТУ
+
+CREATE TABLE GTU 
+( 
+name VARCHAR2(50) primary key, 
+description VARCHAR2(140), 
+application VARCHAR2(140),
+price NUMBER 
+) 
+
+2. Сущность ГТД 
+
+CREATE TABLE GTD 
+( 
+name VARCHAR2(50) primary key, 
+description VARCHAR2(140), 
+views VARCHAR(140), 
+type VARCHAR(140), 
+price NUMBER 
+) 
+
+3. Сущность Выхлопной диффузор
+
+CREATE TABLE Exhaust diffuser 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+4. Сущность Коллектор 
+
+CREATE TABLE Collector 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+5. Сущность Трубы 
+
+CREATE TABLE Tubing 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+6. Сущность Кабеля 
+
+CREATE TABLE Cables 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+7. Сущность Блок гидравлического стартера 
+
+CREATE TABLE Hydraulic starter unit 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+8. Сущность Система буферного охлаждающего воздуха 
+
+CREATE TABLE Buffer cooling air system 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+9. Сущность Система контроля расхода
+
+CREATE TABLE Flow control system 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+10. Сущность Блок баллонов СО2 
+
+CREATE TABLE CO2 cylinder block 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+11. Сущность Система фильтрации 
+
+CREATE TABLE Filtration system 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
+
+12. Сущность Система впрыска воды
+
+CREATE TABLE Water injection system 
+( 
+name VARCHAR2(50) primary key, 
+count NUMBER, 
+price NUMBER 
+) 
